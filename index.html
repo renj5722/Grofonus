@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html><!--  Hello, fellow hacker! Seems like you also know that ctrl+shift+I opens up inspect element, huh?  -->
+  <head>
+    <title>Grofonus</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/grofonus-image.png">
+    <link rel = "stylesheet" href = "index.css">
+    <link rel = "stylesheet" href = "main-page-stylesheet.css">
+  </head>
+  <body>
+    <div id = "mainFrameBackgroundContainer">
+      <div class = "contentBox">
+        <header id = "header"><br>
+            <img src = "/grofonus-logo.png" alt = "Grofonus" class = "logo" onclick = "#">
+            <span id = "registerButton" onclick = "/register.html" style = "transition: .3s ease-in-out; border-radius: 3px;"><br>Sign in/Sign up<br><br></span>
+        </header>
+        <!--<header>
+          <img src = "/grofonus-logo.png" alt = "Grofonus" class = "logo" onclick = "#"><span id = "registerButton" onclick = "/register.html" style = "transition: .3s ease-in-out; border-radius: 3px;"><br>Sign in/Sign up<br><br></span>
+        </header><br>-->
+        <div id = "body">
+          <h1>GROFONUS</h1>
+          <p id = "aboutParagraph">
+            <span id = "aboutParagraphTitle">About</span><br>
+            Grofonus is a free, online educational role-playing game<br>
+            for grades from kindergarten to grade seven.<br>
+            You can learn, and compete with other fellow learners!
+          </p><br><br>
+        </div>
+        <div id = "footer">
+          Created by Jay Studios. Copyrights reserved.
+        </div>
+      <br><br></div>
+    </div>
+    <script>
+      //lol!
+      var homePage = document.getElementById("contentBox");
+      var registerPage = document.getElementById("registerPage");
+      function showRegisterPage() {
+        homePage.style.display = "none";
+        registerPage.style.display = "block";
+      }
+    </script>
+  </body>
+</html>
