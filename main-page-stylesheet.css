@@ -1,0 +1,43 @@
+#body, #footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#footer {
+  font-size: 0.5em;
+}
+
+.contentBox {
+  display: block;
+}
+
+#mainFrameBackgroundContainer {
+  background-color: rgba(0, 0, 0, 0.66);
+  border-radius: 6px;
+  /*margin: 50px 50px 50px;*/
+}
+
+#registerButton {
+  background-color: transparent;
+  float: right;
+}
+
+#registerButton:hover {
+  background-color: #0564b7;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+h1 {
+  font-size: 64px;
+}
+#aboutParagraphTitle {
+  font-size: 1.5em;
+}
+header {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #287e91;
+  height: 70px;
+}
