@@ -1,8 +1,8 @@
-#form-container {
+.form-container {
   margin: 20px 30px 30px;
 }
 
-#sign-in-form {
+#sign-in-form, #sign-up-form {
   color: #2596e8;
 }
 
@@ -11,8 +11,20 @@
   font-size: 1.7em;
 }
 
-#about-blurb {
-  color: #fcd967;
+#next-button {
+  text-decoration: none;
+}
+
+#sign-in-container {
+  float: left;
+  border-right: 2px ridge #fcd967;
+  width: 49%;
+}
+#sign-up-container {
+  float: right;
+  border-left: 2px ridge #fcd967;
+  width: 49%;
+}
+h1 {
   text-align: center;
-  font-size: 3em;
 }
