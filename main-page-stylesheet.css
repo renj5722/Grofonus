@@ -12,21 +12,11 @@
   display: block;
 }
 
-#mainFrameBackgroundContainer {
-  background-color: rgba(0, 0, 0, 0.66);
-  border-radius: 6px;
-  /*margin: 50px 50px 50px;*/
-}
-
-#registerButton {
+.registerButton {
   background-color: transparent;
   float: right;
-}
-
-#registerButton:hover {
-  background-color: #0564b7;
-  cursor: pointer;
-  border: 1px solid black;
+  padding: 25px;
+  border-left: 1px solid black;
 }
 
 h1 {
@@ -35,9 +25,10 @@ h1 {
 #aboutParagraphTitle {
   font-size: 1.5em;
 }
-header {
-  margin-bottom: 10px;
-  border-radius: 5px;
-  background-color: #287e91;
-  height: 70px;
+
+.logo {
+  float: left;
+}
+.big-logo:hover {
+  cursor: pointer;
 }
