@@ -1,5 +1,21 @@
 <!DOCTYPE html>
-<html><!--  Hello, fellow hacker! Seems like you also know that ctrl+shift+I opens up inspect element, huh?  -->
+<html>
+  <!--
+  __________________________________________________________________
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   _/_/_/  _/_/_/   _/_/_/_/  _/_/_/    _/_/_/_/  _/_/_/_/   _/_/_/
+  _/       _/   _/  _/        _/   _/      _/        _/     _/
+  _/       _/_/_/   _/_/_/    _/    _/     _/        _/      _/_/_/
+  _/       _/  _/   _/        _/   _/      _/        _/           _/
+   _/_/_/  _/   _/  _/_/_/_/  _/_/_/    _/_/_/_/     _/      _/_/_/
+  __________________________________________________________________
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  Main producer: Jay Ren
+  Graphics: Jay Ren
+  Animations: Jay Ren
+  Idea makers: Jay Ren, Kevin Serjani, Jayden Liu
+  -->
   <head>
     <title>Grofonus</title>
     <meta charset="utf-8">
@@ -10,16 +26,15 @@
   <body>
     <div id = "mainFrameBackgroundContainer">
       <div class = "contentBox">
-        <header id = "header"><br>
-            <img src = "/grofonus-logo.png" alt = "Grofonus" class = "logo" onclick = "#">
-            <span id = "registerButton" onclick = "/register.html" style = "transition: .3s ease-in-out; border-radius: 3px;"><br>Sign in/Sign up<br><br></span>
+        <header id = "header" style = "transition: .5s ease-in-out;">
+            <span>
+              <img src = "/grofonus.png" alt = "Grofonus" class = "logo big-logo" height = "70px">
+            </span>
+            
+            <span onclick = "http://grofonus.bitballoon.com/register.html" class = "registerButton button" style = "transition: .3s ease-in-out;" height = "40px">Sign in/Sign up</span>
         </header>
-        <!--<header>
-          <img src = "/grofonus-logo.png" alt = "Grofonus" class = "logo" onclick = "#"><span id = "registerButton" onclick = "/register.html" style = "transition: .3s ease-in-out; border-radius: 3px;"><br>Sign in/Sign up<br><br></span>
-        </header><br>-->
         <div id = "body">
-          <h1>GROFONUS</h1>
-          <p id = "aboutParagraph">
+          <p id = "aboutParagraph"><br><br>
             <span id = "aboutParagraphTitle">About</span><br>
             Grofonus is a free, online educational role-playing game<br>
             for grades from kindergarten to grade seven.<br>
@@ -29,16 +44,7 @@
         <div id = "footer">
           Created by Jay Studios. Copyrights reserved.
         </div>
-      <br><br></div>
+      <br></div>
     </div>
-    <script>
-      //lol!
-      var homePage = document.getElementById("contentBox");
-      var registerPage = document.getElementById("registerPage");
-      function showRegisterPage() {
-        homePage.style.display = "none";
-        registerPage.style.display = "block";
-      }
-    </script>
   </body>
 </html>
