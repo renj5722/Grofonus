@@ -2,7 +2,23 @@ body {
   background-image: url("http://eskipaper.com/images/cool-mountain-valley-1.jpg");
   color: #fcd967;
 }
+#mainFrameBackgroundContainer {
+  background-color: rgba(0, 0, 0, 0.66);
+  border-radius: 6px;
+  margin: 0 25px 50px;
+}
 
-/*.contentBox {
-  margin: 20px 20px 5px;
-}*/
+header {
+  padding-bottom: 10px;
+  background-color: #88c2ce;
+  height: 60px;
+}
+header:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button:hover {
+  background-color: #0564b7;
+  cursor: pointer;
+  border: 1px solid black;
+}
