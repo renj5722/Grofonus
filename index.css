@@ -1,3 +1,6 @@
+html {
+  overflow: hidden;
+}
 body {
   background-image: url("http://eskipaper.com/images/cool-mountain-valley-1.jpg");
   color: #fcd967;
@@ -10,15 +13,10 @@ body {
 
 header {
   padding-bottom: 10px;
-  background-color: #88c2ce;
   height: 60px;
-}
-header:hover {
-  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid black;
 }
 
-.button:hover {
-  background-color: #0564b7;
-  cursor: pointer;
-  border: 1px solid black;
+header:hover {
+  background-color: #164c54;
 }
