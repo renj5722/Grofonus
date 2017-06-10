@@ -8,23 +8,45 @@
     <link rel = "stylesheet" href = "play.css">
   </head>
   <body>
-    <header id = "header" style = "transition: .5s ease-in-out;">
-      <img src = "/grofonus.png" alt = "Grofonus" class = "logo big-logo" height = "70px">
-    </header>
     <div id = "mainFrameBackgroundContainer">
       <div id = "contentBox">
-        <div id = "header shortcut-icon-container">
-          
+        <header id = "header" style = "transition: .3s ease-in-out;">
+          <img src = "/grofonus.png" alt = "Grofonus" class = "logo big-logo" height = "70px">
+        </header><br>
+        <div id = "shortcut-icon-container">
+          <div id = "inventory" style = "background-image: url(http://grofonus.bitballoon.com/inventory.png);" class = "icon"></div>
+          <div id = "quest-log" style = "background-image: url(http://grofonus.bitballoon.com/quest-log.png);" class = "icon"></div>
+          <div id = "map"       style = "background-image: url(http://grofonus.bitballoon.com/map.png);"       class = "icon"></div>
+          <div id = "settings"  style = "background-image: url(http://grofonus.bitballoon.com/settings.png);"  class = "icon"></div>
+        </div><br>
+        <h1>What would you like to learn, <span class = "player-name">traveller</span>?</h1><br>
+        <span id = "subjects-subtitle" class = "subtitle">Subjects</span><br>
+        <div id = "subjects-container">
+          <div id = "math" class = "subject-box">
+            <span class = "subjects">Math</span><br>
+            <span class = "description">Trigonometry, Algebra</span>
+          </div>
+          <div id = "language" class = "subject-box">
+            <span class = "subjects">Language</span><br>
+            <span class = "description">Grammar, Writing skills</span>
+          </div>
+          <div id = "science" class = "subject-box">
+            <span class = "subjects">Science</span><br>
+            <span class = "description">Physics, Chemistry</span>
+          </div>
         </div>
       </div><br><br><br>
     </div>
     <script>
       var player = {
-        name: document.getElementsByClassName("player-name").value
+        name: document.getElementsByClassName("player-name").value;
       };
-      for (var i = 0; i < player.name.length; i++){
-        player.name[i].innerHTML =
+      for <var i = 0; i < player.name.length; i++) {
+        player.name[i].innerHTML = "Jay";
       }
+      /*for (var i = 0; i < player.name.length; i++){
+        player.name[i].innerHTML =
+      }*/
     </script>
   </body>
 </html>
