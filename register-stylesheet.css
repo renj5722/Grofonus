@@ -1,7 +1,6 @@
-.form-container {
-  margin: 20px 30px 30px;
+body{
+  text-align: center;
 }
-
 #sign-in-form, #sign-up-form {
   color: #2596e8;
 }
@@ -11,20 +10,30 @@
   font-size: 1.7em;
 }
 
+
+.contentBox {
+  padding-top: 30px;
+}
+
 #next-button {
   text-decoration: none;
 }
 
-#sign-in-container {
-  float: left;
-  border-right: 2px ridge #fcd967;
-  width: 49%;
-}
-#sign-up-container {
-  float: right;
-  border-left: 2px ridge #fcd967;
-  width: 49%;
-}
 h1 {
   text-align: center;
+}
+.button {
+  width: 80%;
+  background-color: #fcd967;
+  color: #2596e8;
+  height: 40px;
+}
+.button:hover {
+  background-color: #0564b7;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: .3s ease-in-out;
+}
+#no-account {
+  color: #fcd967;
 }
