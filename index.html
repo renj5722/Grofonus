@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
+  <!--__________________________________________________________________-->
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  <!-- _/_/_/  _/_/_/   _/_/_/_/  _/_/_/    _/_/_/_/  _/_/_/_/   _/_/_/ -->
+  <!--_/       _/   _/  _/        _/   _/      _/        _/     _/      -->
+  <!--_/       _/_/_/   _/_/_/    _/    _/     _/        _/      _/_/_/ -->
+  <!--_/       _/  _/   _/        _/   _/      _/        _/           _/-->
+  <!-- _/_/_/  _/   _/  _/_/_/_/  _/_/_/    _/_/_/_/     _/      _/_/_/ -->
+  <!--__________________________________________________________________-->
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <!--
-  __________________________________________________________________
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   _/_/_/  _/_/_/   _/_/_/_/  _/_/_/    _/_/_/_/  _/_/_/_/   _/_/_/
-  _/       _/   _/  _/        _/   _/      _/        _/     _/
-  _/       _/_/_/   _/_/_/    _/    _/     _/        _/      _/_/_/
-  _/       _/  _/   _/        _/   _/      _/        _/           _/
-   _/_/_/  _/   _/  _/_/_/_/  _/_/_/    _/_/_/_/     _/      _/_/_/
-  __________________________________________________________________
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  
   Main producer: Jay Ren
   Graphics: Jay Ren
   Animations: Jay Ren
@@ -26,12 +25,12 @@
   <body>
     <div id = "mainFrameBackgroundContainer">
       <div class = "contentBox">
-        <header id = "header" style = "transition: .5s ease-in-out;">
-            <span>
-              <img src = "/grofonus.png" alt = "Grofonus" class = "logo big-logo" height = "70px">
-            </span>
-            
-            <span onclick = "http://grofonus.bitballoon.com/register.html" class = "registerButton button" style = "transition: .3s ease-in-out;" height = "40px">Sign in/Sign up</span>
+        <header id = "header">
+          <img src = "/grofonus.png" alt = "Grofonus" class = "logo big-logo" height = "70px">
+          <form id = "sign-in-button-form" action ="/sign-in">
+            <input class = "registerButton button" type = "submit" value = "Sign in/Sign up" style = "transition: .3s ease-in-out;" id = "sign-in-button">
+          </form>
+          <!--<span onclick = "http://grofonus.bitballoon.com/register" class = "registerButton button" style = "transition: .3s ease-in-out;" height = "40px">Sign in/Sign up</span>-->
         </header>
         <div id = "body">
           <p id = "aboutParagraph"><br><br>
@@ -42,9 +41,10 @@
           </p><br><br>
         </div>
         <div id = "footer">
-          Created by Jay Studios. Copyrights reserved.
-        </div>
-      <br></div>
+          Created by Jay Studios. Copyrights reserved.<br>
+          If you have any questions, please contact <em>jay.jrjren@gmail.com</em>.
+        </div><br>
+      </div>
     </div>
   </body>
 </html>
