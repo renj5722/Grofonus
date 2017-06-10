@@ -17,6 +17,8 @@
   float: right;
   padding: 25px;
   border-left: 1px solid black;
+  font-size: 1.5em;
+  height: 70px;
 }
 
 h1 {
@@ -31,4 +33,12 @@ h1 {
 }
 .big-logo:hover {
   cursor: pointer;
+}
+.button:hover {
+  background-color: #0564b7;
+  cursor: pointer;
+  border: 1px solid black;
+}
+#sign-in-button {
+  font-family: serif;
 }
